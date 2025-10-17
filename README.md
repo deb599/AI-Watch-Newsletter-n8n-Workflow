@@ -7,7 +7,7 @@ The workflow leverages multi-agent orchestration to handle content curation, ana
 
 **AI Watch** automates the discovery, curation, and summarization of AI-related news and policy updates. Built with **n8n** and enhanced through **multi-agent AI orchestration**, the workflow intelligently monitors RSS feeds, classifies content by risk relevance, and prepares structured summaries suitable for newsletters, LinkedIn updates, and dashboards.
 
-Unlike typical automation demos, this repository focuses on **showcasing orchestration logic, not code distribution**. It outlines how the workflow blends retrieval, classification, and narrative generation in a scalable, no-code format.
+This repository focuses on **showcasing orchestration logic, not code distribution**. It outlines how the workflow blends retrieval, classification, and narrative generation in a scalable, no-code format.
 
 ## Purpose
 
@@ -71,6 +71,10 @@ Sensitive credentials—API keys, auth tokens, and connectors—are user-configu
 ## Output and Links
 
 - **Newsletter Link:** [AI Watch newsletter](https://watchera.substack.com/) — delivers concise, curated AI insights with summaries, hooks, prompts, and visuals ready to publish every Saturday at 3 PM.
+
+## N8n flow
+<img width="1131" height="575" alt="Screenshot 2025-10-18 at 10 50 09 am" src="https://github.com/user-attachments/assets/c468b948-a1f2-4eed-8010-802e554fe0bc" />
+
 
 ***
 
