@@ -51,12 +51,13 @@ The goal is to **show how AI risk monitoring can be automated** with minimal tec
 
 ## Multi-Agent Highlights
 
-The workflow uses independent **AI nodes** to ensure layered reasoning and output quality:
+The workflow uses independent **AI nodes** to ensure layered reasoning and output quality, **with human-in-the-loop review for every output**:
 
 - **Summarization Agent:** Converts raw content to technical and non-technical abstracts.  
 - **Blog Review Agent:** Refines writeups into Substack-ready or newsletter-friendly copy.  
 - **Hook Generator Agent:** Creates emotionally engaging one-liners for visibility.  
 - **Ask AI Prompt Generator:** Suggests practical AI exploration tasks derived from each insight.
+- **Image Generation Agent:** Produces a relevant visual to accompany each article.
 
 ## Use Cases
 
@@ -67,10 +68,9 @@ The workflow uses independent **AI nodes** to ensure layered reasoning and outpu
 
 Sensitive credentials—API keys, auth tokens, and connectors—are user-configured within n8n’s secure credential store. The repository **does not** include private APIs, datasets, or workflow JSONs.
 
-## Demo and Links
+## Output and Links
 
-- **YouTube Demo:** 
-- **Contact:** For private demo or configuration inquiries, reach out via GitHub.
+- **Newsletter Link:** [AI Watch newsletter](https://watchera.substack.com/) — delivers concise, curated AI insights with summaries, hooks, prompts, and visuals ready to publish every Saturday at 3 PM.
 
 ***
 
